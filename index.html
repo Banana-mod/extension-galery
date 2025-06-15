@@ -11,17 +11,63 @@
   <meta content="https://bludisanlemon.github.io/lemons-gallery" property="og:url" />
   <meta content="https://banana-mod.github.io/favicon.ico" property="og:image" />
   <meta content="#FFE95E" data-react-helmet="true" name="theme-color" />
+
+  <!-- Add font import -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Inline header styles -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    header {
+      background-color: #f7df4a;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      height: 32px;
+    }
+
+    header h1 {
+      font-size: 16px;
+      margin: 0;
+      font-weight: 700;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Added header bar -->
+  <header>
+    <img src="https://banana-mod.github.io/favicon.ico" alt="BananaMod Logo">
+    <h1>Banana‑mod – Extension Gallery</h1>
+  </header>
+
   <h1></h1>
-  <h1 style="font-size: 50px;">Lemon's Extension Gallery</h1>
+  <h1 style="font-size: 50px;">Banana-mod Extension Gallery</h1>
   <h2> </h2>
-  <div style="padding: 10px; color: white; background-color: #FFD5D5; border-style: solid; border-color: #D64535; border-radius: 15px; border-width: 2px; text-align: center;"><h2>These extensions are not compatible for Scratch.</h2>
-  <h4>Projects that use these extensions can't be uploaded to the Scratch website.</h4></div>
+
+  <div style="padding: 10px; color: white; background-color: #FFD5D5; border-style: solid; border-color: #D64535; border-radius: 15px; border-width: 2px; text-align: center;">
+    <h2>These extensions are not compatible for Scratch.</h2>
+    <h4>Projects that use these extensions can't be uploaded to the Scratch website.</h4>
+  </div>
+
   <br>
   <div id="extensions"></div>
   <br>
   <h4 style="color: #DDD;">Banana-mod Extension Gallery is not affiliated with TurboWarp, Scratch, The Scratch Team, or the Scratch Foundation.</h4>
+
   <script src="builder.js"></script>
   <script src="index.js"></script>
 </body>
