@@ -4,15 +4,7 @@
 }
 
   const defaultList = [
-                  {
-                   "title": "Hello World",
-                   "img": null,
-                   "description": "An extension example",
-                   "url": 'extensions/hello-world.js',
-                   "creator": [
-                     {"name": "GarboMuffin", "url": "https://scratch.mit.edu/users/GarboMuffin/"}
-                   ]
-                   }
+
   ];
 
   async function getList() {
