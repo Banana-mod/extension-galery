@@ -1,16 +1,5 @@
 [
   {
-    "title": "Hello World",
-    "img": null,
-    "description": "An extension example",
-    "url": "extensions/hello-world.js",
-    "docsURL": "#",
-    "sandboxed": true,
-    "creator": [
-      {"name": "GarboMuffin", "url": "https://scratch.mit.edu/users/GarboMuffin/"}
-    ]
-  },
-  {
     "title": "SQLSnap! Fileshare",
     "img": "images/Bitter_130/SQLSnapFileshare.png",
     "description": "Port of the SQLSnap! Fileshare extension for cloud file share utilization.",
