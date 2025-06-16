@@ -1,105 +1,32 @@
 [
   {
-    "title": "SQLSnap! Fileshare",
-    "img": "images/Bitter_130/SQLSnapFileshare.png",
-    "description": "Port of the SQLSnap! Fileshare extension for cloud file share utilization.",
-    "url": "extensions/Bitter_130/SQLSnapFileshare.js",
-    "sandboxed": true,
-    "creator": [
-      {"name": "Bitter_160", "url": "https://scratch.mit.edu/users/Bitter_160/"}
-    ]
-  },
-  {
-    "title": "Weather API",
-    "img": "images/Lemon/WeatherAPI.png",
-    "description": "Get weather information of a place using the Weather API.",
-    "url": "extensions/Lemon/WeatherAPI.js",
+    "title": "Italian Brainrot Extension",
+    "img": "https://banana-mod.github.io/Italian-Brainrot-Extension/itbr.svg",
+    "description": "Let the brainrot enter!",
+    "url": "https://banana-mod.github.io/Italian-Brainrot-Extension/italianbrainrot.js",
     "sandboxed": false,
     "creator": [
-      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"},
-      {"name": "0znzw", "url": "https://scratch.mit.edu/users/0znzw/"}
+      {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
     ]
   },
   {
-    "title": "Screenshot (Slow)",
-    "img": "images/Lemon/screenshot.png",
-    "description": "Screenshot the entire page in one click.",
-    "url": "extensions/Lemon/screenshot.js",
+    "title": "Meme Extension",
+    "img": "https://banana-mod.github.io/MemeExtension/memeextension.svg",
+    "description": "Get fresh baked memes.",
+    "url": "https://banana-mod.github.io/MemeExtension/memeextension.js",
     "sandboxed": false,
     "creator": [
-      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
+      {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
     ]
   },
   {
-    "title": "Auto Clicker Detection",
-    "img": "images/Lemon/autoclick_detect.png",
-    "description": "Easily detect auto clickers.",
-    "url": "extensions/Lemon/autoclick_detect.js",
+    "title": "BlockBeat (May not work)",
+    "img": "https://banana-mod.github.io/BlockBeat/blockBeat.svg",
+    "description": "Generate cool beats using Bytebeat",
+    "url": "https://banana-mod.github.io/BlockBeat/blockBeat.js",
     "sandboxed": false,
     "creator": [
-      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
-    ]
-  },
-  {
-    "title": "Bluetooth Request",
-    "img": "images/Lemon/bluetooth.png",
-    "description": "Allows you to send out bluetooth requests to nearby bluetooth devices.",
-    "url": "extensions/Lemon/bluetooth.js",
-    "sandboxed": false,
-    "creator": [
-      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
-    ]
-  },
-  {
-  "title": "Live Keyboard Input",
-  "img": null,
-  "description": "Get keyboard input from the user, as if they were typing in a textbox!",
-  "url": "extensions/silly software/LiveKeyboard.js",
-  "sandboxed": true,
-  "creator": [
-    {"name": "silly software", "url": "https://sillysoftware.lol"}
-    ]
-  },
-  {
-    "title": "URL Music extension",
-    "img": null,
-    "description": "Play, pause, seek, set the volume and get data about songs from URL-s!",
-    "url": "extensions/silly software/URL_music.js",
-    "sandboxed": true,
-    "creator": [
-      {"name": "silly software", "url": "https://sillysoftware.lol"}
-    ]
-  },
-  {
-    "title": "IndexedDB",
-    "img": "images/silly software/indexedDB.png",
-    "description": "Save more than 5mb of data locally!",
-    "sandboxed": false,
-    "url": "extensions/silly software/IndexedDB.js",
-    "creator": [
-      {"name": "silly software", "url": "https://sillysoftware.lol"}
-    ]
-  },
-  {
-    "title": "TurboAST",
-    "img": "images/Lemon/TurboAST.png",
-    "description": "AST creation made easier.",
-    "url": "extensions/Lemon/TurboAST.js",
-    "sandboxed": false,
-    "creator": [
-      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
-    ]
-  },
-  {
-    "title": "Waveforms",
-    "img": "images/Lemon/Waveforms.png",
-    "description": "Use real time waveform calculations in your project.",
-    "url": "extensions/Lemon/Waveforms.js",
-    "sandboxed": false,
-    "creator": [
-      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"},
-      {"name": "Mistium", "url": "https://scratch.mit.edu/users/M1stium/"},
-      {"name": "0znzw", "url": "https://scratch.mit.edu/users/0znzw/"}
+      {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
     ]
   }
 ]
