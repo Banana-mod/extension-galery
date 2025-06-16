@@ -3,7 +3,7 @@
     "title": "Italian Brainrot Extension",
     "img": "https://banana-mod.github.io/Italian-Brainrot-Extension/itbr.svg",
     "description": "Let the brainrot enter!",
-    "url": "https://banana-mod.github.io/Italian-Brainrot-Extension/italianbrainrot.js",
+    "url": "extensions/banana-mod/italianbrainrot.js",
     "sandboxed": false,
     "creator": [
       {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
@@ -13,7 +13,7 @@
     "title": "Meme Extension",
     "img": "https://banana-mod.github.io/MemeExtension/memeextension.svg",
     "description": "Get fresh baked memes.",
-    "url": "https://banana-mod.github.io/MemeExtension/memeextension.js",
+    "url": "extensions/banana-mod/memeextension.js",
     "sandboxed": false,
     "creator": [
       {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
@@ -23,7 +23,7 @@
     "title": "BlockBeat (May not work)",
     "img": "https://banana-mod.github.io/BlockBeat/blockBeat.svg",
     "description": "Generate cool beats using Bytebeat",
-    "url": "https://banana-mod.github.io/BlockBeat/blockBeat.js",
+    "url": "extensions/banana-mod/blockBeat.js",
     "sandboxed": false,
     "creator": [
       {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
