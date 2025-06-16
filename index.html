@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Banana-mod Extension Gallery</title>
+
   <link rel="stylesheet" href="style.css" />
   <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" />
-  <meta content="Banana-mod Extension Gallery" property="og:title" />
-  <meta content="An extension gallery for Banana-mod." property="og:description" />
-  <meta content="https://bludisanlemon.github.io/lemons-gallery" property="og:url" />
-  <meta content="https://banana-mod.github.io/favicon.ico" property="og:image" />
-  <meta content="#FFE95E" data-react-helmet="true" name="theme-color" />
 
-  <!-- Add font import -->
+  <meta property="og:title" content="Banana-mod Extension Gallery" />
+  <meta property="og:description" content="An extension gallery for Banana-mod." />
+  <meta property="og:url" content="https://bludisanlemon.github.io/lemons-gallery" />
+  <meta property="og:image" content="https://banana-mod.github.io/favicon.ico" />
+  <meta name="theme-color" content="#FFE95E" data-react-helmet="true" />
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Inline header styles -->
+  <!-- Inline Styles for Header -->
   <style>
     html, body {
       margin: 0;
@@ -27,7 +29,7 @@
     }
 
     header {
-      width: 100vw;
+      width: 100%;
       background-color: #f7df4a;
       padding: 10px 20px;
       display: flex;
@@ -35,7 +37,6 @@
       justify-content: center;
       gap: 10px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      margin: 0;
     }
 
     header img {
@@ -50,14 +51,14 @@
     }
   </style>
 </head>
-
-<!-- HEADER OUTSIDE BODY -->
-<header>
-  <img src="https://banana-mod.github.io/favicon.ico" alt="BananaMod Logo">
-  <h1>Banana‑mod – Extension Gallery</h1>
-</header>
-
 <body>
+
+  <!-- ✅ Header is now correctly inside the <body> -->
+  <header>
+    <img src="https://banana-mod.github.io/favicon.ico" alt="BananaMod Logo">
+    <h1>Banana‑mod – Extension Gallery</h1>
+  </header>
+
   <h1 style="font-size: 50px;">Banana-mod Extension Gallery</h1>
 
   <div style="padding: 10px; color: white; background-color: #FFD5D5; border-style: solid; border-color: #D64535; border-radius: 15px; border-width: 2px; text-align: center;">
@@ -72,5 +73,6 @@
 
   <script src="builder.js"></script>
   <script src="index.js"></script>
+
 </body>
 </html>
