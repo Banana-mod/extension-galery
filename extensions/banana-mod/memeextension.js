@@ -4,28 +4,35 @@ class MemeExtension {
     }
 
     getInfo() {
+        const blueColor = '#f1e74a'; // nice, readable blue
+
         return {
             id: 'memeExtension',
             name: 'Meme Generator',
+            color1: blueColor, // optional but good practice to match block color in menus
+            color2: blueColor,
+            color3: blueColor,
             blocks: [
                 {
                     opcode: 'getRandomMeme',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'Get a random meme',
-                    color: '#00f' // Setting block color to blue
+                    color: blueColor,
+                    // Make it async so Scratch handles the promise properly
+                    async: true
                 },
                 {
                     opcode: 'getMemeUrl',
                     blockType: Scratch.BlockType.REPORTER,
                     text: 'Get meme URL',
-                    color: '#00f' // Setting block color to blue
+                    color: blueColor
                 }
             ],
         };
     }
 
-    getRandomMeme() {
-        return fetch('https://api.imgflip.com/get_memes')
+    getRandomMeme(args, util) {
+        return fetch('https://meme-api.com/gimme')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -33,13 +40,11 @@ class MemeExtension {
                 return response.json();
             })
             .then(data => {
-                if (data && data.data && data.data.memes.length > 0) {
-                    const memes = data.data.memes;
-                    const randomMeme = memes[Math.floor(Math.random() * memes.length)];
-                    this.memeList.push(randomMeme.url);
-                    console.log('Fetched meme:', randomMeme.url);
+                if (data && data.url) {
+                    this.memeList.push(data.url);
+                    console.log('Fetched meme:', data.url);
                 } else {
-                    console.error('No memes found in the response:', data);
+                    console.error('No meme found in the response:', data);
                 }
             })
             .catch(error => {
