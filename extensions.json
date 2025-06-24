@@ -29,4 +29,14 @@
       {"name": "Banana-mod", "url": "https://scratch.mit.edu/users/numelemeu123/"}
     ]
   }
+  {
+    "title": "DiscordBot",
+    "img": "https://banana-mod.github.io/extension-galery/images/banana-mod/DiscordBot.png",
+    "description": "Make discord bots in turbowarp",
+    "url": "extensions/banana-mod/DiscordBot.js",
+    "sandboxed": false,
+    "creator": [
+      {"name": "Mistium", "url": "https://mistium.com/"}
+    ]
+  }
 ]
