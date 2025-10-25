@@ -10,6 +10,16 @@
     ]
   },
   {
+    "title": "Images",
+    "img": "https://extensions.turbowarp.org/images/CST1229/images.svg",
+    "description": "Some blocks for working with images",
+    "url": "https://extensions.turbowarp.org/CST1229/images.js",
+    "sandboxed": false,
+    "creator": [
+      {"name": "CST1229", "url": "https://scratch.mit.edu/users/CST1229/"}
+    ]
+  },
+  {
     "title": "Meme Extension",
     "img": "https://banana-mod.github.io/MemeExtension/memeextension.svg",
     "description": "Get fresh baked memes.",
